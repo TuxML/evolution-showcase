@@ -3,7 +3,7 @@ import subprocess
 
 
 if __name__ == "__main__":
-   linux_versions = [13.1, 14.1, 16.1]
+   linux_versions = [11.1]
    for linux_version in linux_versions:
         cmd = "python3 kernel_generator.py --tiny --linux4_version {} --dev 1".format(str(linux_version))
         print(cmd)
